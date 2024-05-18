@@ -42,7 +42,8 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-
+            implementation(libs.kotlin.datetime)
+            implementation(compose.material3)
         }
 
         desktopMain.dependencies {
